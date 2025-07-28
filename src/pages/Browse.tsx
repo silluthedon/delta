@@ -257,7 +257,7 @@ const Browse: React.FC = () => {
         ) : (
           <div className="text-center py-16">
             <Search className="h-16 w-16 text-gray-600 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-gray-400 mb-2">কোনো ফলাফল পাওয়া যায়নি</h3>
+            <h3 className="text-xl font-semibold text-gray-400 mb-2">I don't have any money to upgrade database, Plz donate</h3>
             <p className="text-gray-500">
               {searchTerm || selectedGenre
                 ? 'আপনার সার্চ বা ফিল্টার পরিবর্তন করে চেষ্টা করুন'
